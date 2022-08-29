@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --main-color: red;
+        }
+
+        h2 {
+            background-color: var(--main-color);
+        }
+
+        .container {}
+
+        aside,
+        .blog {
+            float: left;
+            height: 700px;
+
+        }
+
+        aside {
+            background-color: var(--main-color);
+            width: 200px;
+        }
+
+        .blog {
+            background-color: chartreuse;
+            width: calc(100% - 200px);
+        }
+
+        footer {
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>my name is khan</h2>
+    </header>
+    <main>
+        <section class="container">
+            <aside>my side nave</aside>
+            <div class="blog">i am bad</div>
+        </section>
+    </main>
+    <footer>
+        <p>copyright</p>
+    </footer>
+</body>
+
+</html>
